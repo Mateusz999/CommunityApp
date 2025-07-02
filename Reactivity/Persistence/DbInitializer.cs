@@ -11,112 +11,107 @@ public class DbInitializer
 
         var activities = new List<Activity>
         {
-            new() {
-                Title = "Past Activity 1",
-                Date = DateTime.Now.AddMonths(-2),
-                Description = "Activity 2 months ago",
-                Category = "drinks",
-                City = "London",
-                Venue = "The Lamb and Flag, 33, Rose Street, Seven Dials, Covent Garden, London, Greater London, England, WC2E 9EB, United Kingdom",
-                Latitude = 51.51171665,
-                Longitude = -0.1256611057818921,
-            },
-            new() {
-                Title = "Past Activity 2",
-                Date = DateTime.Now.AddMonths(-1),
-                Description = "Activity 1 month ago",
-                Category = "culture",
-                City = "Paris",
-                Venue = "Louvre Museum, Rue Saint-Honoré, Quartier du Palais Royal, 1st Arrondissement, Paris, Ile-de-France, Metropolitan France, 75001, France",
-                Latitude = 48.8611473,
-                Longitude = 2.33802768704666
-            },
-            new() {
-                Title = "Future Activity 1",
-                Date = DateTime.Now.AddMonths(1),
-                Description = "Activity 1 month in future",
-                Category = "culture",
-                City = "London",
-                Venue = "Natural History Museum",
-                Latitude = 51.496510900000004,
-                Longitude = -0.17600190725447445
-            },
-            new() {
-                Title = "Future Activity 2",
-                Date = DateTime.Now.AddMonths(2),
-                Description = "Activity 2 months in future",
-                Category = "music",
-                City = "London",
-                Venue = "The O2",
-                Latitude = 51.502936649999995,
-                Longitude = 0.0032029278126681844
-            },
-            new()
-            {
-                Title = "Future Activity 3",
-                Date = DateTime.Now.AddMonths(3),
-                Description = "Activity 3 months in future",
-                Category = "drinks",
-                City = "London",
-                Venue = "The Mayflower",
-                Latitude = 51.501778,
-                Longitude = -0.053577
-            },
-            new()
-            {
-                Title = "Future Activity 4",
-                Date = DateTime.Now.AddMonths(4),
-                Description = "Activity 4 months in future",
-                Category = "drinks",
-                City = "London",
-                Venue = "The Blackfriar",
-                Latitude = 51.512146650000005,
-                Longitude = -0.10364680647106028
-            },
-            new()
-            {
-                Title = "Future Activity 5",
-                Date = DateTime.Now.AddMonths(5),
-                Description = "Activity 5 months in future",
-                Category = "culture",
-                City = "London",
-                Venue = "Sherlock Holmes Museum, 221b, Baker Street, Marylebone, London, Greater London, England, NW1 6XE, United Kingdom",
-                Latitude = 51.5237629,
-                Longitude = -0.1584743
-            },
-            new()
-            {
-                Title = "Future Activity 6",
-                Date = DateTime.Now.AddMonths(6),
-                Description = "Activity 6 months in future",
-                Category = "music",
-                City = "London",
-                Venue = "Roundhouse, Chalk Farm Road, Maitland Park, Chalk Farm, London Borough of Camden, London, Greater London, England, NW1 8EH, United Kingdom",
-                Latitude = 51.5432505,
-                Longitude = -0.15197608174931165
-            },
-            new()
-            {
-                Title = "Future Activity 7",
-                Date = DateTime.Now.AddMonths(7),
-                Description = "Activity 2 months ago",
-                Category = "travel",
-                City = "London",
-                Venue = "River Thames, England, United Kingdom",
-                Latitude = 51.5575525,
-                Longitude = -0.781404
-            },
-            new()
-            {
-                Title = "Future Activity 8",
-                Date = DateTime.Now.AddMonths(8),
-                Description = "Activity 8 months in future",
-                Category = "film",
-                City = "London",
-                Venue = "River Thames, England, United Kingdom",
-                Latitude = 51.5575525,
-                Longitude = -0.781404
-            }
+           new() {
+    Title = "Wykład Gościnny – Nowoczesne trendy w gastronomii",
+    Date = DateTime.Now.AddMonths(-2),
+    Description = "Spotkanie z szefem kuchni i degustacja napojów rzemieślniczych",
+    Category = "drinks",
+    City = "Nysa",
+    Venue = "Kawiarnia Studencka PANS, ul. Obrońców Tobruku 5, Nysa",
+    Latitude = 50.4749,
+    Longitude = 17.3343,
+},
+new() {
+    Title = "Wycieczka studencka – Sztuka francuska w Paryżu",
+    Date = DateTime.Now.AddMonths(-1),
+    Description = "Zajęcia terenowe na temat dziedzictwa kulturowego i sztuki klasycznej",
+    Category = "culture",
+    City = "Paryż",
+    Venue = "Luwr",
+    Latitude = 48.8611473,
+    Longitude = 2.3380276
+},
+new() {
+    Title = "Dzień Otwarty PANS – Kierunki humanistyczne i społeczne",
+    Date = DateTime.Now.AddMonths(1),
+    Description = "Prezentacja kierunków studiów oraz zwiedzanie uczelni",
+    Category = "culture",
+    City = "Nysa",
+    Venue = "Gmach Główny PANS, ul. Obrońców Tobruku 5",
+    Latitude = 50.4749,
+    Longitude = 17.3343
+},
+new() {
+    Title = "Koncert Chóru Akademickiego",
+    Date = DateTime.Now.AddMonths(2),
+    Description = "Występ chóru studentów Wydziału Jazzu i Muzyki Estradowej",
+    Category = "music",
+    City = "Nysa",
+    Venue = "Aula Muzyczna PANS",
+    Latitude = 50.4755,
+    Longitude = 17.3322
+},
+new() {
+    Title = "Spotkanie integracyjne studentów pierwszego roku",
+    Date = DateTime.Now.AddMonths(3),
+    Description = "Wieczór przy napojach i planszówkach w akademiku",
+    Category = "drinks",
+    City = "Nysa",
+    Venue = "Klub Studencki PANS",
+    Latitude = 50.4735,
+    Longitude = 17.3365
+},
+new() {
+    Title = "Pub Quiz Wiedzy Ogólnej",
+    Date = DateTime.Now.AddMonths(4),
+    Description = "Zabawa w stylu akademickim – quiz z nagrodami",
+    Category = "drinks",
+    City = "Nysa",
+    Venue = "Bar Kampusowy PANS",
+    Latitude = 50.4742,
+    Longitude = 17.3337
+},
+new() {
+    Title = "Warsztaty z Sherlockiem – Logika i dedukcja w kryminalistyce",
+    Date = DateTime.Now.AddMonths(5),
+    Description = "Zajęcia dla studentów bezpieczeństwa wewnętrznego",
+    Category = "culture",
+    City = "Nysa",
+    Venue = "Laboratorium Kryminalistyki PANS",
+    Latitude = 50.4761,
+    Longitude = 17.3359
+},
+new() {
+    Title = "Festiwal Muzyki Akademickiej",
+    Date = DateTime.Now.AddMonths(6),
+    Description = "Przegląd zespołów studenckich i wykładowców",
+    Category = "music",
+    City = "Nysa",
+    Venue = "Dziedziniec PANS Nysa",
+    Latitude = 50.4752,
+    Longitude = 17.3340
+},
+new() {
+    Title = "Spływ kajakowy integracyjny po Nysie Kłodzkiej",
+    Date = DateTime.Now.AddMonths(7),
+    Description = "Studenci na falach – aktywny weekend z opiekunami roku",
+    Category = "travel",
+    City = "Nysa",
+    Venue = "Przystań Kajakowa Nysa",
+    Latitude = 50.4536,
+    Longitude = 17.3201
+},
+new() {
+    Title = "Wieczór Filmowy PANS – Klasyka kina europejskiego",
+    Date = DateTime.Now.AddMonths(8),
+    Description = "Pokaz filmów i panel dyskusyjny",
+    Category = "film",
+    City = "Nysa",
+    Venue = "Centrum Kultury Studenckiej",
+    Latitude = 50.4750,
+    Longitude = 17.3344
+}
+
         };
 
         context.Activities.AddRange(activities);
