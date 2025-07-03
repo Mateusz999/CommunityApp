@@ -19,7 +19,7 @@ builder.Services.AddMediatR(x =>
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly); // dodanie mappera 
 
 var app = builder.Build();
-app.UseCors(x => x.AllowAnyHeader().AllowAnyHeader().WithOrigins("http://localhost:3000", "https://localhost:3000"));
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000", "https://localhost:3000"));
 // Configure the HTTP request pipeline.
 app.MapControllers();
 

@@ -1,15 +1,17 @@
 import { Box, Button, Paper, TextField, Typography } from '@mui/material'
 import type { FormEvent } from 'react'
+import { useActivities } from '../../../lib/Hooks/useActivity'
 
 type Props = {
     activity?: Activity
     closeForm: () => void
-    submitForm: (activity: Activity) => void;
 }
 
-export default function ActivityForm({activity,closeForm,submitForm}: Props) {
+export default function ActivityForm({activity,closeForm}: Props) {
 
-  const handleSubmit = ( event: FormEvent<HTMLFormElement>) => {
+  const {updateActivity,createActivity} = useActivities();
+
+  const handleSubmit = async ( event: FormEvent<HTMLFormElement>) => {
 
     event.preventDefault();
     const formDate = new FormData(event.currentTarget);
@@ -18,8 +20,16 @@ export default function ActivityForm({activity,closeForm,submitForm}: Props) {
     formDate.forEach((value,key)=> {
       data[key] = value;
     });
-    if(activity) data.id = activity.id
-    submitForm(data as unknown as  Activity);
+
+    if(activity) {
+      data.id = activity.id
+       await updateActivity.mutateAsync(data as unknown as Activity);
+       closeForm();
+    } else {
+        
+       await createActivity.mutateAsync(data as unknown as Activity);
+       closeForm();
+    }
 
     console.log(data);
     event.preventDefault();
@@ -42,9 +52,12 @@ export default function ActivityForm({activity,closeForm,submitForm}: Props) {
               label='Kategoria'
               defaultValue={activity?.category} />
             <TextField 
-              name='data'
-              label='Data' 
-              defaultValue={activity?.date} 
+              name='date'
+              label='Date' 
+              defaultValue={activity?.date 
+                ? new Date(activity.date).toISOString().split('T')[0] 
+                : new Date().toISOString().split("T")[0]
+              } 
               type="date"/>
             <TextField 
               name='city'
@@ -57,7 +70,12 @@ export default function ActivityForm({activity,closeForm,submitForm}: Props) {
 
             <Box display={'flex'} justifyContent={'end'} gap={3}>
                 <Button onClick={closeForm} color='inherit'>Anuluj</Button>
-                <Button type='submit' color='success' variant='contained'>Zapisz</Button>
+                <Button 
+                  type='submit' 
+                  color='success' 
+                  variant='contained'
+                  disabled={updateActivity.isPending || createActivity.isPending}
+                >Zapisz</Button>
             </Box>
         </Box>
     </Paper>
