@@ -1,46 +1,33 @@
 import { Group } from '@mui/icons-material'
-import { AppBar, Box, Button, Container, MenuItem, Toolbar, Typography } from '@mui/material'
+import { AppBar, Box, Container, MenuItem, Toolbar, Typography } from '@mui/material'
 import React from 'react'
+import MenuItemList from '../shared/components/MenuItemList'
 
-type Props = {
-  openForm: () => void;
-}
 
-export default function NavBar({openForm}: Props) {
+export default function NavBar() {
   return (
       <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
        <Container maxWidth='xl'>
         <Toolbar sx={{display: 'flex', justifyContent: 'space-between'}}>
             <Box>
-                <MenuItem sx={{display: 'flex', gap: 2}}>
+                <MenuItemList  to='/' >
                     <Group fontSize='large'/>
                     <Typography variant='h4' fontWeight='bold'>Spotly</Typography>
-                </MenuItem>
+                </MenuItemList>
             </Box>
             <Box sx={{ display: 'flex'}}>
-                <MenuItem sx={{ 
-                    fontSize: '1.2rem', textTransform: 'uppercase', fontWeight: 'bold'
-                    }}>
+                <MenuItemList  to='/activities'>
                         Wydarzenia
-                </MenuItem>
-                  <MenuItem sx={{ 
-                    fontSize: '1.2rem', textTransform: 'uppercase', fontWeight: 'bold'
-                    }}>
-                        Informacje
-                </MenuItem>
-                  <MenuItem sx={{ 
-                    fontSize: '1.2rem', textTransform: 'uppercase', fontWeight: 'bold'
-                    }}>
-                        Kontakt
-                </MenuItem>
+                </MenuItemList>
+                  <MenuItemList  to='/createActivity'>
+                        Utwórz Wydarzenie
+                </MenuItemList>
+
             </Box>
-            <Button 
-              size='large' 
-              variant='contained' 
-              color='warning'
-              onClick={openForm}
-              >Utwórz wydarzenie</Button>
+            <MenuItem>
+                  UserMenu
+            </MenuItem>
         </Toolbar>
        </Container>
       </AppBar>

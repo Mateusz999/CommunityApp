@@ -1,15 +1,15 @@
 import { Box, Button, Card, CardActions, CardContent, Chip, Typography } from '@mui/material'
 import React from 'react'
 import { useActivities } from '../../../lib/Hooks/useActivity';
+import { Link } from 'react-router';
 
 
 type Props = {
     activity: Activity;
-     selectActivity: (id:string) => void;
 
 }
 
-export default function ActivityCard({activity,selectActivity}: Props) {
+export default function ActivityCard({activity}: Props) {
   const {deleteActivity} = useActivities();
 
   return (
@@ -25,7 +25,8 @@ export default function ActivityCard({activity,selectActivity}: Props) {
             <Box display={'flex'} gap={3}>
                 
               <Button 
-                onClick={() => selectActivity(activity.id)}
+                component={Link}
+                to={`/activities/${activity.id}`}
                 size='medium' 
                 variant='contained'
               >Więcej</Button>
