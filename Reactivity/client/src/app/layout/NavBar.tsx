@@ -27,7 +27,10 @@ export default function NavBar() {
                         Utwórz Wydarzenie
                 </MenuItemList>
                 <MenuItemList  to='/counter'>
-                        Counter
+                        Licznik
+                </MenuItemList>
+                <MenuItemList  to='/errors'>
+                        Błedy
                 </MenuItemList>
                 
 
