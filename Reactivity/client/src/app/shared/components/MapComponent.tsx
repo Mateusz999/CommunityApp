@@ -1,4 +1,3 @@
-import React from 'react'
 import { MapContainer, TileLayer, Popup,Marker} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 
