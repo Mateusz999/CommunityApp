@@ -11,9 +11,13 @@ public class Activity
     public required string Category { get; set; }
     public bool IsCancelled { get; set; }
 
-    // location props
+    // propsy lokalizacji
     public required string City { get; set; }
     public required string Venue { get; set; }
     public double Latitude { get; set; }
     public double Longitude { get; set; }
+
+    // propsy nawigacyjne
+
+    public ICollection<ActivityAttendee> Attendees { get; set; } = [];
 }

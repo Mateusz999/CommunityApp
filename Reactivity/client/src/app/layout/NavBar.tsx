@@ -3,10 +3,16 @@ import { AppBar, Box, Container, LinearProgress, MenuItem, Toolbar, Typography }
 import MenuItemList from '../shared/components/MenuItemList'
 import { useStore } from '../../lib/Hooks/useStore'
 import { Observer } from 'mobx-react-lite'
+import { useAccount } from '../../lib/Hooks/useAccount'
+import { Link } from 'react-router';
+import UserMenu from './UserMenu'
+
+
 
 
 export default function NavBar() {
  const {uiStore} = useStore();
+ const {currentUser} = useAccount();
 
   return (
       <Box sx={{ flexGrow: 1 }}>
@@ -23,9 +29,6 @@ export default function NavBar() {
                 <MenuItemList  to='/activities'>
                         Wydarzenia
                 </MenuItemList>
-                  <MenuItemList  to='/createActivity'>
-                        Utwórz Wydarzenie
-                </MenuItemList>
                 <MenuItemList  to='/counter'>
                         Licznik
                 </MenuItemList>
@@ -35,9 +38,17 @@ export default function NavBar() {
                 
 
             </Box>
-            <MenuItem>
-                  UserMenu
-            </MenuItem>
+            <Box display={'flex'} alignItems={'center'}>
+              {currentUser? (
+                <UserMenu />
+              ):
+              (
+                <>
+                  <MenuItem component={Link} to="/login">Zaloguj się</MenuItem>
+                  <MenuItem component={Link} to="/register">Zarejestruj się</MenuItem>
+                </>
+              )}
+            </Box>
         </Toolbar>
        </Container>
 

@@ -1,4 +1,7 @@
-﻿using Domain;
+﻿using Application.Activities.DTOs;
+using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
@@ -12,13 +15,15 @@ namespace Application.Activities.Queries
 {
     public class GetActivityList
     {// mediator powinien mieć utworzoną klase Query ktra implementuje interfejs IRequers 
-        public class Query : IRequest<List<Activity>> {  }
+        public class Query : IRequest<List<ActivityDTO>> {  }
 
-        public class Handler(AppDbContext context) : IRequestHandler<Query, List<Activity>>
+        public class Handler(AppDbContext context, IMapper mapper) : IRequestHandler<Query, List<ActivityDTO>>
         {
-            public async Task<List<Activity>> Handle(Query request, CancellationToken cancellationToken) // musimy implementować interfejs!
+            public async Task<List<ActivityDTO>> Handle(Query request, CancellationToken cancellationToken) // musimy implementować interfejs!
             {
-                return await context.Activities.ToListAsync();
+                return await context.Activities
+                    .ProjectTo<ActivityDTO>(mapper.ConfigurationProvider)
+                    .ToListAsync();
 
             }
         }

@@ -32,11 +32,11 @@ export default function HomePage() {
     <Typography variant='h2'>Witam w Spotly</Typography>
     <Button
       component={Link}
-      to={'/activities'}
+      to={'/login'}
       size='large'
       variant='contained'
       sx={{heigth:80, borderRadius: 4, fontSize: '1.2rem'}}
-    >Wejdż do Spotly</Button>
+    >Wejdź do Spotly</Button>
    </Paper>
   )
 }
