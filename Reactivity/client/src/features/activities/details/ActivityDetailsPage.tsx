@@ -24,7 +24,7 @@ export default function ActivityDetailsPage() {
             <ActivityDetailChat />
         </Grid2>
         <Grid2 size={4 }>
-            <ActivityDetailSidebar />
+            <ActivityDetailSidebar activity={activity} />
         </Grid2>
     </Grid2>
   )

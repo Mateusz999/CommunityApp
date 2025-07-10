@@ -50,6 +50,7 @@ public class ActivitiesController() : BaseApiController
 
     [HttpPost("{id}/attend")]
     public async Task<ActionResult> Attend(string id ) {
+        //return BadRequest("B³¹d podczas aktualizacji ");
         return HandleResult(await Mediator.Send(new UpdateAttendence.Command { Id = id }));
     }
 
