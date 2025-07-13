@@ -5,6 +5,7 @@ using Application.Core;
 using Application.Interfaces;
 using Domain;
 using FluentValidation;
+using Infrastructure.Photos;
 using Infrastructure.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -34,12 +35,14 @@ builder.Services.AddMediatR(x =>
 }
     );
 builder.Services.AddScoped<IUserAccessor, UserAccessor>();
+builder.Services.AddScoped<IPhotoService, PhotoService>();
 
 // rejestracja mediatora
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly); // dodanie mappera 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateActivityValidator>();
 builder.Services.AddTransient<ExceptionMiddleware>();
-
+builder.Services.Configure<CouldinarySettings>(builder.Configuration
+    .GetSection("CloundinarySettings"));
 
 // -- kod poni¿ej zapewnia nam zarejestrowanie serwisu identity plus dodajemy funkcjonalnoœc uniklanych adresów email
 builder.Services.AddIdentityApiEndpoints<User>(opt =>
@@ -61,9 +64,14 @@ builder.Services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>()
 var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
-app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod()
+app.UseCors(x => x
+.AllowAnyHeader()
+.AllowAnyMethod()
 .AllowCredentials()
-.WithOrigins("http://localhost:3000", "https://localhost:3000"));
+.WithOrigins("http://localhost:3000", "https://localhost:3000", "https://sk2m2gf9-3000.euw.devtunnels.ms"));
+
+
+
 app.UseAuthentication(); // najpierw autentykujemy u¿ytkownika by móc potem autoryzowaæ go np. do przyk³adowego kontrolera
 app.UseAuthorization(); // w przeciwnym razie otrzymasz na blat 401 cokolwiek byœ nie zrobi³
 // Configure the HTTP request pipeline.
