@@ -1,0 +1,3144 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\mateu\\Desktop\\CommunityApp",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-07-13 18:42:09",
+            "filesum": 466,
+            "codesum": 36413,
+            "commentsum": 367,
+            "blanksum": 1640,
+            "statistics": {
+                "": {
+                    "code": 135,
+                    "comment": 182,
+                    "blank": 29
+                },
+                ".json": {
+                    "code": 29268,
+                    "comment": 4,
+                    "blank": 516
+                },
+                ".cs": {
+                    "code": 3172,
+                    "comment": 150,
+                    "blank": 753
+                },
+                ".cache": {
+                    "code": 328,
+                    "comment": 0,
+                    "blank": 5
+                },
+                ".BuildWithSkipAnalyzers": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".Up2Date": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".editorconfig": {
+                    "code": 163,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 226,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".targets": {
+                    "code": 101,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".props": {
+                    "code": 75,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".user": {
+                    "code": 7,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".csproj": {
+                    "code": 72,
+                    "comment": 0,
+                    "blank": 21
+                },
+                ".sln": {
+                    "code": 90,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 22,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".html": {
+                    "code": 13,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".development": {
+                    "code": 1,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 47,
+                    "comment": 14,
+                    "blank": 11
+                },
+                ".ts": {
+                    "code": 394,
+                    "comment": 13,
+                    "blank": 73
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".tsx": {
+                    "code": 1336,
+                    "comment": 3,
+                    "blank": 163
+                },
+                ".css": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".config": {
+                    "code": 958,
+                    "comment": 0,
+                    "blank": 68
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 27,
+                    "code": 121,
+                    "comment": 173,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": ".vs\\CommunityApp\\FileContentIndex\\65251280-71be-4868-9880-f5b01d34277b.vsidx",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".vs\\CommunityApp\\v17\\.wsuo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": ".vs\\CommunityApp\\v17\\DocumentLayout.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": ".vs\\ProjectSettings.json"
+                },
+                {
+                    "filename": ".vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": ".vs\\VSWorkspaceState.json"
+                },
+                {
+                    "filename": "Reactivity\\.vs\\ProjectEvaluation\\reactivities.metadata.v9.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\ProjectEvaluation\\reactivities.projects.v9.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\ProjectEvaluation\\reactivities.strings.v9.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\ProjectSettings.json"
+                },
+                {
+                    "blank": 68,
+                    "code": 958,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\Reactivities\\config\\applicationhost.config"
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\CodeChunks.db",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\CodeChunks.db-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\CodeChunks.db-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\SemanticSymbols.db",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\SemanticSymbols.db-shm",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\CopilotIndices\\17.13.431.34963\\SemanticSymbols.db-wal",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\DesignTimeBuild\\.dtbcache.v2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\v17\\.futdcache.v2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivities\\v17\\.suo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 139,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\Reactivities\\v17\\DocumentLayout.backup.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 139,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\Reactivities\\v17\\DocumentLayout.json"
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivity\\CopilotIndices\\17.13.431.34963\\CodeChunks.db",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivity\\CopilotIndices\\17.13.431.34963\\SemanticSymbols.db",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivity\\FileContentIndex\\29394b0b-a649-414f-8114-8cbf0b5b9496.vsidx",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\.vs\\Reactivity\\v17\\.wsuo",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\Reactivity\\v17\\DocumentLayout.json"
+                },
+                {
+                    "filename": "Reactivity\\.vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Reactivity\\.vs\\VSWorkspaceState.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\API.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\API.csproj.user"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\appsettings.Development.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 2052,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.deps.json"
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.runtimeconfig.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\API.staticwebassets.endpoints.json"
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Application.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\appsettings.Development.json"
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\AutoMapper.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\CloudinaryDotNet.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\cs\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\cs\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\cs\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\cs\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\cs\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\de\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\de\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\de\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\es\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\es\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\es\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\es\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\es\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\FluentValidation.DependencyInjectionExtensions.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\FluentValidation.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\fr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\fr\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\fr\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\fr\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\fr\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Humanizer.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\it\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\it\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\it\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\it\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ja\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ja\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ja\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ko\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ko\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ko\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\MediatR.Contracts.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\MediatR.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.Bcl.AsyncInterfaces.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.Build.Locator.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.CSharp.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.Workspaces.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.Data.Sqlite.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.EntityFrameworkCore.Design.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.EntityFrameworkCore.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.EntityFrameworkCore.Relational.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.EntityFrameworkCore.Sqlite.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Microsoft.Extensions.DependencyModel.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Mono.TextTemplating.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Newtonsoft.Json.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\Persistence.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pl\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pl\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pl\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pl\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pl\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pt-BR\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pt-BR\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\pt-BR\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ru\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ru\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ru\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ru\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\ru\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\browser-wasm\\nativeassets\\net9.0\\e_sqlite3.a",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-arm64\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-arm\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-armel\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-mips64\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-musl-arm64\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-musl-arm\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-musl-s390x\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-musl-x64\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-ppc64le\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-s390x\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-x64\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\linux-x86\\native\\libe_sqlite3.so",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\maccatalyst-arm64\\native\\libe_sqlite3.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\maccatalyst-x64\\native\\libe_sqlite3.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\osx-arm64\\native\\libe_sqlite3.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\osx-x64\\native\\libe_sqlite3.dylib",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\win-arm64\\native\\e_sqlite3.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\win-arm\\native\\e_sqlite3.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\win-x64\\native\\e_sqlite3.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\runtimes\\win-x86\\native\\e_sqlite3.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\SQLitePCLRaw.batteries_v2.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\SQLitePCLRaw.core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\SQLitePCLRaw.provider.e_sqlite3.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.CodeDom.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.Composition.AttributedModel.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.Composition.Convention.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.Composition.Hosting.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.Composition.Runtime.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\System.Composition.TypedParts.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\tr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\tr\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\tr\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\tr\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\tr\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hans\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hans\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hans\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hans\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hans\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hant\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hant\\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hant\\Microsoft.CodeAnalysis.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hant\\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\bin\\Debug\\net9.0\\zh-Hant\\Microsoft.CodeAnalysis.Workspaces.resources.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 11,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Controllers\\AccountController.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 44,
+                    "comment": 3,
+                    "filename": "Reactivity\\API\\Controllers\\ActivitiesController.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Controllers\\BaseApiController.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Controllers\\BuggyController.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Controllers\\ProfilesController.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Controllers\\WeatherForecastController.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\DTOs\\RegisterDto.cs"
+                },
+                {
+                    "blank": 23,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Middleware\\ExceptionMiddleware.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\API.csproj.EntityFrameworkCore.targets"
+                },
+                {
+                    "blank": 25,
+                    "code": 377,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\API.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\API.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\API.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.csproj.BuildWithSkipAnalyzers"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 159,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.csproj.Up2Date"
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.genruntimeconfig.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.GlobalUsings.g.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.MvcApplicationPartsAssemblyInfo.cache"
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\API.sourcelink.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 643,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\ApiEndpoints.json"
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\apphost.exe",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\ref\\API.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\refint\\API.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets.build.endpoints.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets.build.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets.references.upToDateCheck.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets.removed.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.API.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.API.props"
+                },
+                {
+                    "blank": 117,
+                    "code": 6505,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 117,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": "Reactivity\\API\\obj\\Release\\net9.0\\API.GlobalUsings.g.cs"
+                },
+                {
+                    "blank": 14,
+                    "code": 78,
+                    "comment": 9,
+                    "filename": "Reactivity\\API\\Program.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\Properties\\launchSettings.json"
+                },
+                {
+                    "filename": "Reactivity\\API\\reactivities.db",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Reactivity\\API\\WeatherForecast.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Commands\\CreateActivity.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Commands\\DeleteActivity.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 34,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\Activities\\Commands\\EditActivity.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Commands\\UpdateAttendence.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 2,
+                    "filename": "Reactivity\\Application\\Activities\\DTOs\\ActivityDTO.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\Activities\\DTOs\\BaseActivityDto.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\DTOs\\CreateActivityDto.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\DTOs\\EditActivityDto.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Queries\\GetActivityDetails.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 2,
+                    "filename": "Reactivity\\Application\\Activities\\Queries\\GetActivityList.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Validators\\BaseActivityValidator.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Validators\\CreateActivityValidator.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Activities\\Validators\\EditActivityValidator.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Application.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 652,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Application.deps.json"
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Application.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\bin\\Debug\\net9.0\\Persistence.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Core\\AppException.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\Core\\MappingProfiles.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Core\\Result.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Core\\ValidationBehavior.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Interfaces\\IPhotoService.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Interfaces\\IUserAccessor.cs"
+                },
+                {
+                    "blank": 15,
+                    "code": 228,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Application.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Application.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Application.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Applicat.44B5EDA2.Up2Date"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.csproj.BuildWithSkipAnalyzers"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\Application.sourcelink.json"
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\ref\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Debug\\net9.0\\refint\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 39,
+                    "code": 1535,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Application\\obj\\Release\\net9.0\\Application.GlobalUsings.g.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\Commands\\AddPhoto.cs"
+                },
+                {
+                    "blank": 12,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\Commands\\DeletePhoto.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\Commands\\SetMainPhoto.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\DTOs\\PhotoUploadResult.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\DTOs\\UserProfile.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\Queries\\GetProfile.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "Reactivity\\Application\\Profiles\\Queries\\GetProfilePhotos.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\.env.development"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 9,
+                    "filename": "Reactivity\\client\\.gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\eslint.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\index.html"
+                },
+                {
+                    "blank": 111,
+                    "code": 7084,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\package.json"
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\culture.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\drinks.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\film.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\food.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\music.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\categoryImages\\travel.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\placeholder.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\client\\public\\images\\user.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\public\\vite.svg"
+                },
+                {
+                    "blank": 11,
+                    "code": 47,
+                    "comment": 14,
+                    "filename": "Reactivity\\client\\README.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\layout\\App.tsx"
+                },
+                {
+                    "blank": 10,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\layout\\NavBar.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\layout\\style.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\layout\\UserMenu.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\router\\RequireAuth.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\router\\Routes.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\AvatarPopover.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\DateTimeInput.tsx"
+                },
+                {
+                    "blank": 16,
+                    "code": 81,
+                    "comment": 3,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\LocationInput.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\MapComponent.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\MenuItemList.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\SelectInput.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\StyledButton.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\app\\shared\\components\\TextInput.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\account\\LoginForm.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 81,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\account\\RegisterForm.tsx"
+                },
+                {
+                    "blank": 12,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\dashboard\\ActivityCard.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\dashboard\\ActivityDashboard.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\dashboard\\ActivityFilters.tsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\dashboard\\ActivityList.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 83,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\details\\ActivitityDetailHeader.tsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\details\\ActivityDetailChat.tsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\details\\ActivityDetailInfo.tsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\details\\ActivityDetailSidebar.tsx"
+                },
+                {
+                    "blank": 6,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\details\\ActivityDetailsPage.tsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\form\\ActivityForm.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\form\\categoryOptions.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\activities\\profiles\\ProfileCard.tsx"
+                },
+                {
+                    "blank": 9,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\counter\\Counter.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\errors\\NotFound.tsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\errors\\ServerError.tsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\errors\\TestErrors.tsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\features\\home\\HomePage.tsx"
+                },
+                {
+                    "blank": 12,
+                    "code": 56,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\src\\lib\\api\\agent.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 57,
+                    "comment": 2,
+                    "filename": "Reactivity\\client\\src\\lib\\Hooks\\useAccount.ts"
+                },
+                {
+                    "blank": 17,
+                    "code": 116,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\src\\lib\\Hooks\\useActivity.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\Hooks\\useStore.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\schemas\\activitySchema.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\src\\lib\\schemas\\loginSchema.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\schemas\\registerSchema.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 22,
+                    "comment": 6,
+                    "filename": "Reactivity\\client\\src\\lib\\stores\\couterStore.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\stores\\store.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\stores\\uiStore.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\types\\index.d.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\lib\\util\\util.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\src\\main.tsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\src\\vite-env.d.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "Reactivity\\client\\tsconfig.app.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Reactivity\\client\\tsconfig.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 2,
+                    "filename": "Reactivity\\client\\tsconfig.node.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "Reactivity\\client\\vite.config.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 2,
+                    "filename": "Reactivity\\Domain\\Activity.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "Reactivity\\Domain\\ActivityAttendee.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 346,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\bin\\Debug\\net9.0\\Domain.deps.json"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\bin\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Domain\\bin\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\Domain.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.csproj.BuildWithSkipAnalyzers"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\Domain.sourcelink.json"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\ref\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Debug\\net9.0\\refint\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Domain.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Domain.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Domain.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 24,
+                    "code": 845,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\Domain.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\Domain.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\Domain.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\Domain.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Domain\\obj\\Release\\net9.0\\Domain.GlobalUsings.g.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\Photo.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Reactivity\\Domain\\User.cs"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Application.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Application.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1451,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Infrastructure.deps.json"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\bin\\Debug\\net9.0\\Persistence.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\Infrastructure.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastr.15EFFBFE.Up2Date"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.csproj.BuildWithSkipAnalyzers"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\Infrastructure.sourcelink.json"
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\ref\\Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Infrastructure\\obj\\Debug\\net9.0\\refint\\Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 20,
+                    "code": 301,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Infrastructure.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Infrastructure.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\Infrastructure.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 92,
+                    "code": 4536,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\obj\\project.nuget.cache"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\Photos\\CouldinarySettings.cs"
+                },
+                {
+                    "blank": 19,
+                    "code": 58,
+                    "comment": 1,
+                    "filename": "Reactivity\\Infrastructure\\Photos\\PhotoService.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\Security\\IsHostRequirement.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "Reactivity\\Infrastructure\\Security\\UserAccessor.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "Reactivity\\Persistence\\AppDbContext.cs"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\bin\\Debug\\net9.0\\Domain.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\bin\\Debug\\net9.0\\Domain.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 627,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\bin\\Debug\\net9.0\\Persistence.deps.json"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\bin\\Debug\\net9.0\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\bin\\Debug\\net9.0\\Persistence.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 10,
+                    "code": 194,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\DbInitializer.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 3,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20241230131700_InitialCreate.cs"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20241230131700_InitialCreate.Designer.cs"
+                },
+                {
+                    "blank": 22,
+                    "code": 200,
+                    "comment": 3,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250707191619_identityAdded.cs"
+                },
+                {
+                    "blank": 81,
+                    "code": 237,
+                    "comment": 2,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250707191619_identityAdded.Designer.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 46,
+                    "comment": 3,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250709162614_ActivityAttendeesAdd.cs"
+                },
+                {
+                    "blank": 94,
+                    "code": 274,
+                    "comment": 2,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250709162614_ActivityAttendeesAdd.Designer.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 3,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250712122954_PhotoEnt.cs"
+                },
+                {
+                    "blank": 104,
+                    "code": 301,
+                    "comment": 2,
+                    "filename": "Reactivity\\Persistence\\Migrations\\20250712122954_PhotoEnt.Designer.cs"
+                },
+                {
+                    "blank": 104,
+                    "code": 299,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\Migrations\\AppDbContextModelSnapshot.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persiste.61C28332.Up2Date"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.csproj.BuildWithSkipAnalyzers"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\Persistence.sourcelink.json"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\ref\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Debug\\net9.0\\refint\\Persistence.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Persistence.csproj.EntityFrameworkCore.targets"
+                },
+                {
+                    "blank": 10,
+                    "code": 144,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Persistence.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Persistence.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Persistence.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 34,
+                    "code": 1352,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "Reactivity\\Persistence\\obj\\Release\\net9.0\\Persistence.GlobalUsings.g.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Reactivity\\Persistence\\Persistence.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "Reactivity\\Reactivities.sln"
+                }
+            ]
+        }
+    ]
+}

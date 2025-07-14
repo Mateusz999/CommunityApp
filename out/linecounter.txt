@@ -1,0 +1,504 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2025-07-13 18:42:09
+count workspace : c:\Users\mateu\Desktop\CommunityApp
+total files : 466
+total code lines : 36413
+total comment lines : 367
+total blank lines : 1640
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |            135|            182|             29|   0.37|
+   |          .json|          29268|              4|            516|     80|
+   |            .cs|           3172|            150|            753|    8.7|
+   |         .cache|            328|              0|              5|   0.90|
+   |.BuildWithSkipAnalyzers|              0|              0|              0|    0.0|
+   |       .Up2Date|              0|              0|              0|    0.0|
+   |  .editorconfig|            163|              0|              0|   0.45|
+   |           .txt|            226|              0|              0|   0.62|
+   |       .targets|            101|              0|              0|   0.28|
+   |         .props|             75|              0|              0|   0.21|
+   |          .user|              7|              0|              0|  0.019|
+   |        .csproj|             72|              0|             21|   0.20|
+   |           .sln|             90|              0|              0|   0.25|
+   |            .js|             22|              0|              1|  0.060|
+   |          .html|             13|              0|              0|  0.036|
+   |   .development|              1|              1|              0| 0.0027|
+   |            .md|             47|             14|             11|   0.13|
+   |            .ts|            394|             13|             73|    1.1|
+   |           .svg|              1|              0|              0| 0.0027|
+   |           .tsx|           1336|              3|            163|    3.7|
+   |           .css|              4|              0|              0|  0.011|
+   |        .config|            958|              0|             68|    2.6|
+   -------------------------------------------------------------------------
+.gitignore, code is 121, comment is 173, blank is 27.
+.vs\CommunityApp\FileContentIndex\65251280-71be-4868-9880-f5b01d34277b.vsidx, it is a binary file.
+.vs\CommunityApp\v17\.wsuo, it is a binary file.
+.vs\CommunityApp\v17\DocumentLayout.json, code is 12, comment is 0, blank is 0.
+.vs\ProjectSettings.json, code is 3, comment is 0, blank is 0.
+.vs\slnx.sqlite, it is a binary file.
+.vs\VSWorkspaceState.json, code is 6, comment is 0, blank is 1.
+Reactivity\.vs\ProjectEvaluation\reactivities.metadata.v9.bin, it is a binary file.
+Reactivity\.vs\ProjectEvaluation\reactivities.projects.v9.bin, it is a binary file.
+Reactivity\.vs\ProjectEvaluation\reactivities.strings.v9.bin, it is a binary file.
+Reactivity\.vs\ProjectSettings.json, code is 3, comment is 0, blank is 0.
+Reactivity\.vs\Reactivities\config\applicationhost.config, code is 958, comment is 0, blank is 68.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\CodeChunks.db, it is a binary file.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\CodeChunks.db-shm, it is a binary file.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\CodeChunks.db-wal, it is a binary file.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\SemanticSymbols.db, it is a binary file.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\SemanticSymbols.db-shm, it is a binary file.
+Reactivity\.vs\Reactivities\CopilotIndices\17.13.431.34963\SemanticSymbols.db-wal, it is a binary file.
+Reactivity\.vs\Reactivities\DesignTimeBuild\.dtbcache.v2, it is a binary file.
+Reactivity\.vs\Reactivities\v17\.futdcache.v2, it is a binary file.
+Reactivity\.vs\Reactivities\v17\.suo, it is a binary file.
+Reactivity\.vs\Reactivities\v17\DocumentLayout.backup.json, code is 139, comment is 0, blank is 0.
+Reactivity\.vs\Reactivities\v17\DocumentLayout.json, code is 139, comment is 0, blank is 0.
+Reactivity\.vs\Reactivity\CopilotIndices\17.13.431.34963\CodeChunks.db, it is a binary file.
+Reactivity\.vs\Reactivity\CopilotIndices\17.13.431.34963\SemanticSymbols.db, it is a binary file.
+Reactivity\.vs\Reactivity\FileContentIndex\29394b0b-a649-414f-8114-8cbf0b5b9496.vsidx, it is a binary file.
+Reactivity\.vs\Reactivity\v17\.wsuo, it is a binary file.
+Reactivity\.vs\Reactivity\v17\DocumentLayout.json, code is 12, comment is 0, blank is 0.
+Reactivity\.vs\slnx.sqlite, it is a binary file.
+Reactivity\.vs\VSWorkspaceState.json, code is 5, comment is 0, blank is 1.
+Reactivity\API\API.csproj, code is 14, comment is 0, blank is 4.
+Reactivity\API\API.csproj.user, code is 7, comment is 0, blank is 0.
+Reactivity\API\appsettings.Development.json, code is 17, comment is 0, blank is 0.
+Reactivity\API\bin\Debug\net9.0\API.deps.json, code is 2052, comment is 0, blank is 0.
+Reactivity\API\bin\Debug\net9.0\API.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\API.exe, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\API.pdb, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\API.runtimeconfig.json, code is 20, comment is 0, blank is 0.
+Reactivity\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json, code is 5, comment is 0, blank is 0.
+Reactivity\API\bin\Debug\net9.0\Application.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Application.pdb, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\appsettings.Development.json, code is 17, comment is 0, blank is 0.
+Reactivity\API\bin\Debug\net9.0\AutoMapper.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\CloudinaryDotNet.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\FluentValidation.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Humanizer.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Infrastructure.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Infrastructure.pdb, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\MediatR.Contracts.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\MediatR.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.Build.Locator.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Mono.TextTemplating.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Newtonsoft.Json.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Persistence.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\Persistence.pdb, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\SQLitePCLRaw.core.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.CodeDom.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.Composition.AttributedModel.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.Composition.Convention.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.Composition.Hosting.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.Composition.Runtime.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\System.Composition.TypedParts.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll, it is a binary file.
+Reactivity\API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll, it is a binary file.
+Reactivity\API\Controllers\AccountController.cs, code is 51, comment is 0, blank is 11.
+Reactivity\API\Controllers\ActivitiesController.cs, code is 44, comment is 3, blank is 11.
+Reactivity\API\Controllers\BaseApiController.cs, code is 22, comment is 0, blank is 8.
+Reactivity\API\Controllers\BuggyController.cs, code is 29, comment is 0, blank is 4.
+Reactivity\API\Controllers\ProfilesController.cs, code is 36, comment is 0, blank is 8.
+Reactivity\API\Controllers\WeatherForecastController.cs, code is 27, comment is 0, blank is 5.
+Reactivity\API\DTOs\RegisterDto.cs, code is 14, comment is 0, blank is 1.
+Reactivity\API\Middleware\ExceptionMiddleware.cs, code is 64, comment is 0, blank is 23.
+Reactivity\API\obj\API.csproj.EntityFrameworkCore.targets, code is 28, comment is 0, blank is 0.
+Reactivity\API\obj\API.csproj.nuget.dgspec.json, code is 377, comment is 0, blank is 25.
+Reactivity\API\obj\API.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Reactivity\API\obj\API.csproj.nuget.g.targets, code is 11, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Reactivity\API\obj\Debug\net9.0\API.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.assets.cache, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\API.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\API.csproj.BuildWithSkipAnalyzers, code is 0, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.csproj.FileListAbsolute.txt, code is 159, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.csproj.Up2Date, code is 0, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.dll, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig, code is 29, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.genruntimeconfig.cache, code is 1, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.GlobalUsings.g.cs, code is 16, comment is 1, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.MvcApplicationPartsAssemblyInfo.cache, code is 0, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\API.pdb, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\API.sourcelink.json, code is 1, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\ApiEndpoints.json, code is 643, comment is 0, blank is 18.
+Reactivity\API\obj\Debug\net9.0\apphost.exe, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\ref\API.dll, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\refint\API.dll, it is a binary file.
+Reactivity\API\obj\Debug\net9.0\staticwebassets.build.endpoints.json, code is 5, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets.build.json, code is 12, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets.references.upToDateCheck.txt, code is 0, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets.removed.txt, code is 0, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets\msbuild.build.API.props, code is 4, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.API.props, code is 3, comment is 0, blank is 0.
+Reactivity\API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.API.props, code is 3, comment is 0, blank is 0.
+Reactivity\API\obj\project.assets.json, code is 6505, comment is 0, blank is 117.
+Reactivity\API\obj\project.nuget.cache, code is 117, comment is 0, blank is 1.
+Reactivity\API\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\API\obj\Release\net9.0\API.AssemblyInfo.cs, code is 9, comment is 10, blank is 4.
+Reactivity\API\obj\Release\net9.0\API.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\API\obj\Release\net9.0\API.assets.cache, it is a binary file.
+Reactivity\API\obj\Release\net9.0\API.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\API\obj\Release\net9.0\API.GeneratedMSBuildEditorConfig.editorconfig, code is 29, comment is 0, blank is 0.
+Reactivity\API\obj\Release\net9.0\API.GlobalUsings.g.cs, code is 16, comment is 1, blank is 0.
+Reactivity\API\Program.cs, code is 78, comment is 9, blank is 14.
+Reactivity\API\Properties\launchSettings.json, code is 14, comment is 0, blank is 0.
+Reactivity\API\reactivities.db, it is a binary file.
+Reactivity\API\WeatherForecast.cs, code is 8, comment is 0, blank is 4.
+Reactivity\Application\Activities\Commands\CreateActivity.cs, code is 43, comment is 0, blank is 11.
+Reactivity\Application\Activities\Commands\DeleteActivity.cs, code is 32, comment is 0, blank is 7.
+Reactivity\Application\Activities\Commands\EditActivity.cs, code is 34, comment is 1, blank is 9.
+Reactivity\Application\Activities\Commands\UpdateAttendence.cs, code is 51, comment is 0, blank is 8.
+Reactivity\Application\Activities\DTOs\ActivityDTO.cs, code is 26, comment is 2, blank is 4.
+Reactivity\Application\Activities\DTOs\BaseActivityDto.cs, code is 19, comment is 1, blank is 9.
+Reactivity\Application\Activities\DTOs\CreateActivityDto.cs, code is 12, comment is 0, blank is 3.
+Reactivity\Application\Activities\DTOs\EditActivityDto.cs, code is 12, comment is 0, blank is 1.
+Reactivity\Application\Activities\Queries\GetActivityDetails.cs, code is 34, comment is 0, blank is 7.
+Reactivity\Application\Activities\Queries\GetActivityList.cs, code is 28, comment is 2, blank is 3.
+Reactivity\Application\Activities\Validators\BaseActivityValidator.cs, code is 46, comment is 0, blank is 8.
+Reactivity\Application\Activities\Validators\CreateActivityValidator.cs, code is 17, comment is 0, blank is 2.
+Reactivity\Application\Activities\Validators\EditActivityValidator.cs, code is 19, comment is 0, blank is 1.
+Reactivity\Application\Application.csproj, code is 19, comment is 0, blank is 5.
+Reactivity\Application\bin\Debug\net9.0\Application.deps.json, code is 652, comment is 0, blank is 0.
+Reactivity\Application\bin\Debug\net9.0\Application.dll, it is a binary file.
+Reactivity\Application\bin\Debug\net9.0\Application.pdb, it is a binary file.
+Reactivity\Application\bin\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\Application\bin\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\Application\bin\Debug\net9.0\Persistence.dll, it is a binary file.
+Reactivity\Application\bin\Debug\net9.0\Persistence.pdb, it is a binary file.
+Reactivity\Application\Core\AppException.cs, code is 14, comment is 0, blank is 1.
+Reactivity\Application\Core\MappingProfiles.cs, code is 33, comment is 1, blank is 4.
+Reactivity\Application\Core\Result.cs, code is 22, comment is 0, blank is 5.
+Reactivity\Application\Core\ValidationBehavior.cs, code is 24, comment is 0, blank is 4.
+Reactivity\Application\Interfaces\IPhotoService.cs, code is 15, comment is 0, blank is 1.
+Reactivity\Application\Interfaces\IUserAccessor.cs, code is 15, comment is 0, blank is 3.
+Reactivity\Application\obj\Application.csproj.nuget.dgspec.json, code is 228, comment is 0, blank is 15.
+Reactivity\Application\obj\Application.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Reactivity\Application\obj\Application.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date, code is 0, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Reactivity\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.assets.cache, it is a binary file.
+Reactivity\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Application\obj\Debug\net9.0\Application.csproj.BuildWithSkipAnalyzers, code is 0, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.csproj.FileListAbsolute.txt, code is 18, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.dll, it is a binary file.
+Reactivity\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\Application.pdb, it is a binary file.
+Reactivity\Application\obj\Debug\net9.0\Application.sourcelink.json, code is 1, comment is 0, blank is 0.
+Reactivity\Application\obj\Debug\net9.0\ref\Application.dll, it is a binary file.
+Reactivity\Application\obj\Debug\net9.0\refint\Application.dll, it is a binary file.
+Reactivity\Application\obj\project.assets.json, code is 1535, comment is 0, blank is 39.
+Reactivity\Application\obj\project.nuget.cache, code is 41, comment is 0, blank is 1.
+Reactivity\Application\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Application\obj\Release\net9.0\Application.AssemblyInfo.cs, code is 9, comment is 10, blank is 4.
+Reactivity\Application\obj\Release\net9.0\Application.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Application\obj\Release\net9.0\Application.assets.cache, it is a binary file.
+Reactivity\Application\obj\Release\net9.0\Application.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Application\obj\Release\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Application\obj\Release\net9.0\Application.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Application\Profiles\Commands\AddPhoto.cs, code is 42, comment is 0, blank is 11.
+Reactivity\Application\Profiles\Commands\DeletePhoto.cs, code is 35, comment is 0, blank is 12.
+Reactivity\Application\Profiles\Commands\SetMainPhoto.cs, code is 34, comment is 0, blank is 10.
+Reactivity\Application\Profiles\DTOs\PhotoUploadResult.cs, code is 13, comment is 0, blank is 1.
+Reactivity\Application\Profiles\DTOs\UserProfile.cs, code is 15, comment is 0, blank is 2.
+Reactivity\Application\Profiles\Queries\GetProfile.cs, code is 35, comment is 0, blank is 3.
+Reactivity\Application\Profiles\Queries\GetProfilePhotos.cs, code is 31, comment is 0, blank is 3.
+Reactivity\client\.env.development, code is 1, comment is 1, blank is 0.
+Reactivity\client\.gitignore, code is 14, comment is 9, blank is 2.
+Reactivity\client\eslint.config.js, code is 22, comment is 0, blank is 1.
+Reactivity\client\index.html, code is 13, comment is 0, blank is 0.
+Reactivity\client\package-lock.json, code is 7084, comment is 0, blank is 111.
+Reactivity\client\package.json, code is 51, comment is 0, blank is 0.
+Reactivity\client\public\images\categoryImages\culture.jpg, it is a binary file.
+Reactivity\client\public\images\categoryImages\drinks.jpg, it is a binary file.
+Reactivity\client\public\images\categoryImages\film.jpg, it is a binary file.
+Reactivity\client\public\images\categoryImages\food.jpg, it is a binary file.
+Reactivity\client\public\images\categoryImages\music.jpg, it is a binary file.
+Reactivity\client\public\images\categoryImages\travel.jpg, it is a binary file.
+Reactivity\client\public\images\logo.png, it is a binary file.
+Reactivity\client\public\images\placeholder.png, it is a binary file.
+Reactivity\client\public\images\user.png, it is a binary file.
+Reactivity\client\public\vite.svg, code is 1, comment is 0, blank is 0.
+Reactivity\client\README.md, code is 47, comment is 14, blank is 11.
+Reactivity\client\src\app\layout\App.tsx, code is 22, comment is 0, blank is 6.
+Reactivity\client\src\app\layout\NavBar.tsx, code is 67, comment is 0, blank is 10.
+Reactivity\client\src\app\layout\style.css, code is 4, comment is 0, blank is 0.
+Reactivity\client\src\app\layout\UserMenu.tsx, code is 69, comment is 0, blank is 6.
+Reactivity\client\src\app\router\RequireAuth.tsx, code is 13, comment is 0, blank is 1.
+Reactivity\client\src\app\router\Routes.tsx, code is 35, comment is 0, blank is 2.
+Reactivity\client\src\app\shared\components\AvatarPopover.tsx, code is 49, comment is 0, blank is 5.
+Reactivity\client\src\app\shared\components\DateTimeInput.tsx, code is 23, comment is 0, blank is 6.
+Reactivity\client\src\app\shared\components\LocationInput.tsx, code is 81, comment is 3, blank is 16.
+Reactivity\client\src\app\shared\components\MapComponent.tsx, code is 20, comment is 0, blank is 2.
+Reactivity\client\src\app\shared\components\MenuItemList.tsx, code is 22, comment is 0, blank is 1.
+Reactivity\client\src\app\shared\components\SelectInput.tsx, code is 29, comment is 0, blank is 5.
+Reactivity\client\src\app\shared\components\StyledButton.tsx, code is 10, comment is 0, blank is 3.
+Reactivity\client\src\app\shared\components\TextInput.tsx, code is 17, comment is 0, blank is 5.
+Reactivity\client\src\features\account\LoginForm.tsx, code is 78, comment is 0, blank is 3.
+Reactivity\client\src\features\account\RegisterForm.tsx, code is 81, comment is 0, blank is 3.
+Reactivity\client\src\features\activities\dashboard\ActivityCard.tsx, code is 65, comment is 0, blank is 12.
+Reactivity\client\src\features\activities\dashboard\ActivityDashboard.tsx, code is 16, comment is 0, blank is 3.
+Reactivity\client\src\features\activities\dashboard\ActivityFilters.tsx, code is 36, comment is 0, blank is 2.
+Reactivity\client\src\features\activities\dashboard\ActivityList.tsx, code is 19, comment is 0, blank is 7.
+Reactivity\client\src\features\activities\details\ActivitityDetailHeader.tsx, code is 83, comment is 0, blank is 3.
+Reactivity\client\src\features\activities\details\ActivityDetailChat.tsx, code is 49, comment is 0, blank is 3.
+Reactivity\client\src\features\activities\details\ActivityDetailInfo.tsx, code is 52, comment is 0, blank is 8.
+Reactivity\client\src\features\activities\details\ActivityDetailSidebar.tsx, code is 62, comment is 0, blank is 5.
+Reactivity\client\src\features\activities\details\ActivityDetailsPage.tsx, code is 25, comment is 0, blank is 6.
+Reactivity\client\src\features\activities\form\ActivityForm.tsx, code is 79, comment is 0, blank is 14.
+Reactivity\client\src\features\activities\form\categoryOptions.ts, code is 8, comment is 0, blank is 0.
+Reactivity\client\src\features\activities\profiles\ProfileCard.tsx, code is 40, comment is 0, blank is 3.
+Reactivity\client\src\features\counter\Counter.tsx, code is 29, comment is 0, blank is 9.
+Reactivity\client\src\features\errors\NotFound.tsx, code is 22, comment is 0, blank is 2.
+Reactivity\client\src\features\errors\ServerError.tsx, code is 22, comment is 0, blank is 2.
+Reactivity\client\src\features\errors\TestErrors.tsx, code is 50, comment is 0, blank is 7.
+Reactivity\client\src\features\home\HomePage.tsx, code is 41, comment is 0, blank is 1.
+Reactivity\client\src\lib\api\agent.ts, code is 56, comment is 1, blank is 12.
+Reactivity\client\src\lib\Hooks\useAccount.ts, code is 57, comment is 2, blank is 10.
+Reactivity\client\src\lib\Hooks\useActivity.ts, code is 116, comment is 1, blank is 17.
+Reactivity\client\src\lib\Hooks\useStore.ts, code is 5, comment is 0, blank is 1.
+Reactivity\client\src\lib\schemas\activitySchema.ts, code is 17, comment is 0, blank is 2.
+Reactivity\client\src\lib\schemas\loginSchema.ts, code is 6, comment is 1, blank is 2.
+Reactivity\client\src\lib\schemas\registerSchema.ts, code is 8, comment is 0, blank is 3.
+Reactivity\client\src\lib\stores\couterStore.ts, code is 22, comment is 6, blank is 10.
+Reactivity\client\src\lib\stores\store.ts, code is 12, comment is 0, blank is 3.
+Reactivity\client\src\lib\stores\uiStore.ts, code is 13, comment is 0, blank is 4.
+Reactivity\client\src\lib\types\index.d.ts, code is 57, comment is 0, blank is 5.
+Reactivity\client\src\lib\util\util.ts, code is 8, comment is 0, blank is 4.
+Reactivity\client\src\main.tsx, code is 30, comment is 0, blank is 2.
+Reactivity\client\src\vite-env.d.ts, code is 0, comment is 1, blank is 0.
+Reactivity\client\tsconfig.app.json, code is 23, comment is 2, blank is 2.
+Reactivity\client\tsconfig.json, code is 7, comment is 0, blank is 0.
+Reactivity\client\tsconfig.node.json, code is 21, comment is 2, blank is 2.
+Reactivity\client\vite.config.ts, code is 9, comment is 1, blank is 0.
+Reactivity\Domain\Activity.cs, code is 16, comment is 2, blank is 5.
+Reactivity\Domain\ActivityAttendee.cs, code is 17, comment is 1, blank is 4.
+Reactivity\Domain\bin\Debug\net9.0\Domain.deps.json, code is 346, comment is 0, blank is 0.
+Reactivity\Domain\bin\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\Domain\bin\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\Domain\Domain.csproj, code is 10, comment is 0, blank is 3.
+Reactivity\Domain\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Reactivity\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.assets.cache, it is a binary file.
+Reactivity\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Domain\obj\Debug\net9.0\Domain.csproj.BuildWithSkipAnalyzers, code is 0, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.csproj.FileListAbsolute.txt, code is 13, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\Domain\obj\Debug\net9.0\Domain.sourcelink.json, code is 1, comment is 0, blank is 0.
+Reactivity\Domain\obj\Debug\net9.0\ref\Domain.dll, it is a binary file.
+Reactivity\Domain\obj\Debug\net9.0\refint\Domain.dll, it is a binary file.
+Reactivity\Domain\obj\Domain.csproj.nuget.dgspec.json, code is 74, comment is 0, blank is 5.
+Reactivity\Domain\obj\Domain.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Reactivity\Domain\obj\Domain.csproj.nuget.g.targets, code is 7, comment is 0, blank is 0.
+Reactivity\Domain\obj\project.assets.json, code is 845, comment is 0, blank is 24.
+Reactivity\Domain\obj\project.nuget.cache, code is 26, comment is 0, blank is 1.
+Reactivity\Domain\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Domain\obj\Release\net9.0\Domain.AssemblyInfo.cs, code is 9, comment is 10, blank is 4.
+Reactivity\Domain\obj\Release\net9.0\Domain.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Domain\obj\Release\net9.0\Domain.assets.cache, it is a binary file.
+Reactivity\Domain\obj\Release\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Domain\obj\Release\net9.0\Domain.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Domain\Photo.cs, code is 18, comment is 0, blank is 2.
+Reactivity\Domain\User.cs, code is 17, comment is 0, blank is 7.
+Reactivity\Infrastructure\bin\Debug\net9.0\Application.dll, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Application.pdb, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json, code is 1451, comment is 0, blank is 0.
+Reactivity\Infrastructure\bin\Debug\net9.0\Infrastructure.dll, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Persistence.dll, it is a binary file.
+Reactivity\Infrastructure\bin\Debug\net9.0\Persistence.pdb, it is a binary file.
+Reactivity\Infrastructure\Infrastructure.csproj, code is 16, comment is 0, blank is 5.
+Reactivity\Infrastructure\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date, code is 0, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.assets.cache, it is a binary file.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.BuildWithSkipAnalyzers, code is 0, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.FileListAbsolute.txt, code is 20, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.dll, it is a binary file.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb, it is a binary file.
+Reactivity\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json, code is 1, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll, it is a binary file.
+Reactivity\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll, it is a binary file.
+Reactivity\Infrastructure\obj\Infrastructure.csproj.nuget.dgspec.json, code is 301, comment is 0, blank is 20.
+Reactivity\Infrastructure\obj\Infrastructure.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\Infrastructure.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Reactivity\Infrastructure\obj\project.assets.json, code is 4536, comment is 0, blank is 92.
+Reactivity\Infrastructure\obj\project.nuget.cache, code is 93, comment is 0, blank is 1.
+Reactivity\Infrastructure\Photos\CouldinarySettings.cs, code is 14, comment is 0, blank is 1.
+Reactivity\Infrastructure\Photos\PhotoService.cs, code is 58, comment is 1, blank is 19.
+Reactivity\Infrastructure\Security\IsHostRequirement.cs, code is 32, comment is 0, blank is 9.
+Reactivity\Infrastructure\Security\UserAccessor.cs, code is 35, comment is 0, blank is 4.
+Reactivity\Persistence\AppDbContext.cs, code is 24, comment is 2, blank is 4.
+Reactivity\Persistence\bin\Debug\net9.0\Domain.dll, it is a binary file.
+Reactivity\Persistence\bin\Debug\net9.0\Domain.pdb, it is a binary file.
+Reactivity\Persistence\bin\Debug\net9.0\Persistence.deps.json, code is 627, comment is 0, blank is 0.
+Reactivity\Persistence\bin\Debug\net9.0\Persistence.dll, it is a binary file.
+Reactivity\Persistence\bin\Debug\net9.0\Persistence.pdb, it is a binary file.
+Reactivity\Persistence\DbInitializer.cs, code is 194, comment is 1, blank is 10.
+Reactivity\Persistence\Migrations\20241230131700_InitialCreate.cs, code is 36, comment is 3, blank is 3.
+Reactivity\Persistence\Migrations\20241230131700_InitialCreate.Designer.cs, code is 52, comment is 2, blank is 14.
+Reactivity\Persistence\Migrations\20250707191619_identityAdded.cs, code is 200, comment is 3, blank is 22.
+Reactivity\Persistence\Migrations\20250707191619_identityAdded.Designer.cs, code is 237, comment is 2, blank is 81.
+Reactivity\Persistence\Migrations\20250709162614_ActivityAttendeesAdd.cs, code is 46, comment is 3, blank is 4.
+Reactivity\Persistence\Migrations\20250709162614_ActivityAttendeesAdd.Designer.cs, code is 274, comment is 2, blank is 94.
+Reactivity\Persistence\Migrations\20250712122954_PhotoEnt.cs, code is 39, comment is 3, blank is 4.
+Reactivity\Persistence\Migrations\20250712122954_PhotoEnt.Designer.cs, code is 301, comment is 2, blank is 104.
+Reactivity\Persistence\Migrations\AppDbContextModelSnapshot.cs, code is 299, comment is 1, blank is 104.
+Reactivity\Persistence\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persiste.61C28332.Up2Date, code is 0, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.AssemblyInfo.cs, code is 9, comment is 9, blank is 4.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.assets.cache, it is a binary file.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.csproj.BuildWithSkipAnalyzers, code is 0, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.csproj.CoreCompileInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.csproj.FileListAbsolute.txt, code is 16, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.dll, it is a binary file.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.pdb, it is a binary file.
+Reactivity\Persistence\obj\Debug\net9.0\Persistence.sourcelink.json, code is 1, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Debug\net9.0\ref\Persistence.dll, it is a binary file.
+Reactivity\Persistence\obj\Debug\net9.0\refint\Persistence.dll, it is a binary file.
+Reactivity\Persistence\obj\Persistence.csproj.EntityFrameworkCore.targets, code is 28, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Persistence.csproj.nuget.dgspec.json, code is 144, comment is 0, blank is 10.
+Reactivity\Persistence\obj\Persistence.csproj.nuget.g.props, code is 13, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Persistence.csproj.nuget.g.targets, code is 9, comment is 0, blank is 0.
+Reactivity\Persistence\obj\project.assets.json, code is 1352, comment is 0, blank is 34.
+Reactivity\Persistence\obj\project.nuget.cache, code is 36, comment is 0, blank is 1.
+Reactivity\Persistence\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs, code is 3, comment is 1, blank is 0.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.AssemblyInfo.cs, code is 9, comment is 10, blank is 4.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.AssemblyInfoInputs.cache, code is 1, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.assets.cache, it is a binary file.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.csproj.AssemblyReference.cache, it is a binary file.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig, code is 15, comment is 0, blank is 0.
+Reactivity\Persistence\obj\Release\net9.0\Persistence.GlobalUsings.g.cs, code is 7, comment is 1, blank is 0.
+Reactivity\Persistence\Persistence.csproj, code is 13, comment is 0, blank is 4.
+Reactivity\Reactivities.sln, code is 90, comment is 0, blank is 0.
+===============================================================================

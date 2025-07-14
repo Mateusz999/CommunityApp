@@ -15,7 +15,7 @@ namespace API.Controllers
         }
 
 
-        [HttpGet("{userId}/photos")]
+        [HttpGet("{userId}/photos")  ]
         public async Task<ActionResult<List<Photo>>> GetPhotoForUser(string userId)
         {
             return HandleResult(await Mediator.Send(new GetProfilePhotos.Query { UserId = userId }));

@@ -1,0 +1,206 @@
+Date : 2025-07-13 18:50:07
+Directory : c:\Users\mateu\Desktop\CommunityApp
+Total : 118 files,  15315 codes, 52 comments, 1091 blanks, all 16458 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          5 |     10,434 |          4 |          8 |     10,446 |
+| C#                 |         55 |      2,976 |         37 |        774 |      3,787 |
+| TypeScript JSX     |         32 |      1,334 |          2 |        190 |      1,526 |
+| TypeScript         |         15 |        394 |          9 |         77 |        480 |
+| XML                |          6 |         73 |          0 |         26 |         99 |
+| Markdown           |          1 |         58 |          0 |         12 |         70 |
+| JavaScript         |          1 |         22 |          0 |          2 |         24 |
+| HTML               |          1 |         13 |          0 |          1 |         14 |
+| JSON with Comments |          1 |          7 |          0 |          1 |          8 |
+| PostCSS            |          1 |          4 |          0 |          0 |          4 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                     |        118 |     15,315 |         52 |      1,091 |     16,458 |
+| Reactivity                                                                                                            |        117 |     12,171 |         52 |      1,091 |     13,314 |
+| Reactivity\API                                                                                                        |         11 |        385 |          7 |        106 |        498 |
+| Reactivity\API (Files)                                                                                                |          3 |        100 |          5 |         25 |        130 |
+| Reactivity\API\Controllers                                                                                            |          6 |        208 |          2 |         54 |        264 |
+| Reactivity\API\DTOs                                                                                                   |          1 |         14 |          0 |          2 |         16 |
+| Reactivity\API\Middleware                                                                                             |          1 |         63 |          0 |         25 |         88 |
+| Reactivity\Application                                                                                                |         27 |        720 |          4 |        165 |        889 |
+| Reactivity\Application (Files)                                                                                        |          1 |         19 |          0 |          6 |         25 |
+| Reactivity\Application\Activities                                                                                     |         13 |        373 |          4 |         86 |        463 |
+| Reactivity\Application\Activities\Commands                                                                            |          4 |        160 |          1 |         39 |        200 |
+| Reactivity\Application\Activities\DTOs                                                                                |          4 |         69 |          3 |         21 |         93 |
+| Reactivity\Application\Activities\Queries                                                                             |          2 |         62 |          0 |         12 |         74 |
+| Reactivity\Application\Activities\Validators                                                                          |          3 |         82 |          0 |         14 |         96 |
+| Reactivity\Application\Core                                                                                           |          4 |         93 |          0 |         18 |        111 |
+| Reactivity\Application\Interfaces                                                                                     |          2 |         30 |          0 |          6 |         36 |
+| Reactivity\Application\Profiles                                                                                       |          7 |        205 |          0 |         49 |        254 |
+| Reactivity\Application\Profiles\Commands                                                                              |          3 |        111 |          0 |         36 |        147 |
+| Reactivity\Application\Profiles\DTOs                                                                                  |          2 |         28 |          0 |          5 |         33 |
+| Reactivity\Application\Profiles\Queries                                                                               |          2 |         66 |          0 |          8 |         74 |
+| Reactivity\Domain                                                                                                     |          5 |         78 |          2 |         26 |        106 |
+| Reactivity\Infrastructure                                                                                             |          5 |        155 |          1 |         43 |        199 |
+| Reactivity\Infrastructure (Files)                                                                                     |          1 |         16 |          0 |          6 |         22 |
+| Reactivity\Infrastructure\Photos                                                                                      |          2 |         72 |          1 |         22 |         95 |
+| Reactivity\Infrastructure\Security                                                                                    |          2 |         67 |          0 |         15 |         82 |
+| Reactivity\Persistence                                                                                                |         12 |      1,710 |         23 |        460 |      2,193 |
+| Reactivity\Persistence (Files)                                                                                        |          3 |        231 |          2 |         21 |        254 |
+| Reactivity\Persistence\Migrations                                                                                     |          9 |      1,479 |         21 |        439 |      1,939 |
+| Reactivity\client                                                                                                     |         57 |      9,123 |         15 |        291 |      9,429 |
+| Reactivity\client (Files)                                                                                             |          9 |      7,399 |          5 |         25 |      7,429 |
+| Reactivity\client\public                                                                                              |          1 |          1 |          0 |          0 |          1 |
+| Reactivity\client\src                                                                                                 |         47 |      1,723 |         10 |        266 |      1,999 |
+| Reactivity\client\src (Files)                                                                                         |          2 |         30 |          1 |          4 |         35 |
+| Reactivity\client\src\app                                                                                             |         14 |        461 |          0 |         79 |        540 |
+| Reactivity\client\src\app\layout                                                                                      |          4 |        162 |          0 |         25 |        187 |
+| Reactivity\client\src\app\router                                                                                      |          2 |         48 |          0 |          4 |         52 |
+| Reactivity\client\src\app\shared                                                                                      |          8 |        251 |          0 |         50 |        301 |
+| Reactivity\client\src\app\shared\components                                                                           |          8 |        251 |          0 |         50 |        301 |
+| Reactivity\client\src\features                                                                                        |         19 |        855 |          2 |        108 |        965 |
+| Reactivity\client\src\features\account                                                                                |          2 |        159 |          0 |          8 |        167 |
+| Reactivity\client\src\features\activities                                                                             |         12 |        532 |          2 |         76 |        610 |
+| Reactivity\client\src\features\activities\dashboard                                                                   |          4 |        136 |          0 |         28 |        164 |
+| Reactivity\client\src\features\activities\details                                                                     |          5 |        269 |          2 |         29 |        300 |
+| Reactivity\client\src\features\activities\form                                                                        |          2 |         87 |          0 |         15 |        102 |
+| Reactivity\client\src\features\activities\profiles                                                                    |          1 |         40 |          0 |          4 |         44 |
+| Reactivity\client\src\features\counter                                                                                |          1 |         29 |          0 |          9 |         38 |
+| Reactivity\client\src\features\errors                                                                                 |          3 |         94 |          0 |         13 |        107 |
+| Reactivity\client\src\features\home                                                                                   |          1 |         41 |          0 |          2 |         43 |
+| Reactivity\client\src\lib                                                                                             |         12 |        377 |          7 |         75 |        459 |
+| Reactivity\client\src\lib\Hooks                                                                                       |          3 |        178 |          0 |         28 |        206 |
+| Reactivity\client\src\lib\api                                                                                         |          1 |         56 |          1 |         12 |         69 |
+| Reactivity\client\src\lib\schemas                                                                                     |          3 |         31 |          0 |          7 |         38 |
+| Reactivity\client\src\lib\stores                                                                                      |          3 |         47 |          6 |         17 |         70 |
+| Reactivity\client\src\lib\types                                                                                       |          1 |         57 |          0 |          6 |         63 |
+| Reactivity\client\src\lib\util                                                                                        |          1 |          8 |          0 |          5 |         13 |
+| out                                                                                                                   |          1 |      3,144 |          0 |          0 |      3,144 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                              | language           | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\API.csproj                                                         | XML                |         14 |          0 |          5 |         19 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\AccountController.cs                                   | C#                 |         51 |          0 |         12 |         63 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\ActivitiesController.cs                                | C#                 |         44 |          2 |         12 |         58 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\BaseApiController.cs                                   | C#                 |         22 |          0 |          9 |         31 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\BuggyController.cs                                     | C#                 |         28 |          0 |          6 |         34 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\ProfilesController.cs                                  | C#                 |         36 |          0 |          9 |         45 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Controllers\WeatherForecastController.cs                           | C#                 |         27 |          0 |          6 |         33 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\DTOs\RegisterDto.cs                                                | C#                 |         14 |          0 |          2 |         16 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Middleware\ExceptionMiddleware.cs                                  | C#                 |         63 |          0 |         25 |         88 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\Program.cs                                                         | C#                 |         78 |          5 |         15 |         98 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\API\WeatherForecast.cs                                                 | C#                 |          8 |          0 |          5 |         13 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Commands\CreateActivity.cs                      | C#                 |         43 |          0 |         12 |         55 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Commands\DeleteActivity.cs                      | C#                 |         32 |          0 |          8 |         40 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Commands\EditActivity.cs                        | C#                 |         34 |          1 |         10 |         45 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Commands\UpdateAttendence.cs                    | C#                 |         51 |          0 |          9 |         60 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\DTOs\ActivityDTO.cs                             | C#                 |         26 |          2 |          5 |         33 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\DTOs\BaseActivityDto.cs                         | C#                 |         19 |          1 |         10 |         30 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\DTOs\CreateActivityDto.cs                       | C#                 |         12 |          0 |          4 |         16 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\DTOs\EditActivityDto.cs                         | C#                 |         12 |          0 |          2 |         14 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Queries\GetActivityDetails.cs                   | C#                 |         34 |          0 |          8 |         42 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Queries\GetActivityList.cs                      | C#                 |         28 |          0 |          4 |         32 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Validators\BaseActivityValidator.cs             | C#                 |         46 |          0 |          9 |         55 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Validators\CreateActivityValidator.cs           | C#                 |         17 |          0 |          3 |         20 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Activities\Validators\EditActivityValidator.cs             | C#                 |         19 |          0 |          2 |         21 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Application.csproj                                         | XML                |         19 |          0 |          6 |         25 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Core\AppException.cs                                       | C#                 |         14 |          0 |          2 |         16 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Core\MappingProfiles.cs                                    | C#                 |         33 |          0 |          5 |         38 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Core\Result.cs                                             | C#                 |         22 |          0 |          6 |         28 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Core\ValidationBehavior.cs                                 | C#                 |         24 |          0 |          5 |         29 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Interfaces\IPhotoService.cs                                | C#                 |         15 |          0 |          2 |         17 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Interfaces\IUserAccessor.cs                                | C#                 |         15 |          0 |          4 |         19 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\Commands\AddPhoto.cs                              | C#                 |         42 |          0 |         12 |         54 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\Commands\DeletePhoto.cs                           | C#                 |         35 |          0 |         13 |         48 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\Commands\SetMainPhoto.cs                          | C#                 |         34 |          0 |         11 |         45 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\DTOs\PhotoUploadResult.cs                         | C#                 |         13 |          0 |          2 |         15 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\DTOs\UserProfile.cs                               | C#                 |         15 |          0 |          3 |         18 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\Queries\GetProfile.cs                             | C#                 |         35 |          0 |          4 |         39 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Application\Profiles\Queries\GetProfilePhotos.cs                       | C#                 |         31 |          0 |          4 |         35 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Domain\Activity.cs                                                     | C#                 |         16 |          2 |          6 |         24 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Domain\ActivityAttendee.cs                                             | C#                 |         17 |          0 |          5 |         22 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Domain\Domain.csproj                                                   | XML                |         10 |          0 |          4 |         14 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Domain\Photo.cs                                                        | C#                 |         18 |          0 |          3 |         21 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Domain\User.cs                                                         | C#                 |         17 |          0 |          8 |         25 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Infrastructure\Infrastructure.csproj                                   | XML                |         16 |          0 |          6 |         22 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Infrastructure\Photos\CouldinarySettings.cs                            | C#                 |         14 |          0 |          2 |         16 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Infrastructure\Photos\PhotoService.cs                                  | C#                 |         58 |          1 |         20 |         79 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Infrastructure\Security\IsHostRequirement.cs                           | C#                 |         32 |          0 |         10 |         42 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Infrastructure\Security\UserAccessor.cs                                | C#                 |         35 |          0 |          5 |         40 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\AppDbContext.cs                                            | C#                 |         24 |          2 |          5 |         31 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\DbInitializer.cs                                           | C#                 |        194 |          0 |         11 |        205 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20241230131700_InitialCreate.Designer.cs        | C#                 |         51 |          2 |         15 |         68 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20241230131700_InitialCreate.cs                 | C#                 |         36 |          3 |          4 |         43 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250707191619_identityAdded.Designer.cs        | C#                 |        236 |          2 |         82 |        320 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250707191619_identityAdded.cs                 | C#                 |        200 |          3 |         23 |        226 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250709162614_ActivityAttendeesAdd.Designer.cs | C#                 |        273 |          2 |         95 |        370 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250709162614_ActivityAttendeesAdd.cs          | C#                 |         46 |          3 |          5 |         54 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250712122954_PhotoEnt.Designer.cs             | C#                 |        300 |          2 |        105 |        407 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\20250712122954_PhotoEnt.cs                      | C#                 |         39 |          3 |          5 |         47 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Migrations\AppDbContextModelSnapshot.cs                    | C#                 |        298 |          1 |        105 |        404 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\Persistence\Persistence.csproj                                         | XML                |         13 |          0 |          5 |         18 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\README.md                                                       | Markdown           |         58 |          0 |         12 |         70 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\eslint.config.js                                                | JavaScript         |         22 |          0 |          2 |         24 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\index.html                                                      | HTML               |         13 |          0 |          1 |         14 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\package-lock.json                                               | JSON               |      7,195 |          0 |          1 |      7,196 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\package.json                                                    | JSON               |         51 |          0 |          1 |         52 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\public\vite.svg                                                 | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\layout\App.tsx                                          | TypeScript JSX     |         22 |          0 |          7 |         29 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\layout\NavBar.tsx                                       | TypeScript JSX     |         67 |          0 |         11 |         78 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\layout\UserMenu.tsx                                     | TypeScript JSX     |         69 |          0 |          7 |         76 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\layout\style.css                                        | PostCSS            |          4 |          0 |          0 |          4 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\router\RequireAuth.tsx                                  | TypeScript JSX     |         13 |          0 |          2 |         15 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\router\Routes.tsx                                       | TypeScript JSX     |         35 |          0 |          2 |         37 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\AvatarPopover.tsx                     | TypeScript JSX     |         49 |          0 |          6 |         55 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\DateTimeInput.tsx                     | TypeScript JSX     |         23 |          0 |          7 |         30 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\LocationInput.tsx                     | TypeScript JSX     |         81 |          0 |         17 |         98 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\MapComponent.tsx                      | TypeScript JSX     |         20 |          0 |          3 |         23 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\MenuItemList.tsx                      | TypeScript JSX     |         22 |          0 |          2 |         24 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\SelectInput.tsx                       | TypeScript JSX     |         29 |          0 |          6 |         35 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\StyledButton.tsx                      | TypeScript JSX     |         10 |          0 |          3 |         13 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\app\shared\components\TextInput.tsx                         | TypeScript JSX     |         17 |          0 |          6 |         23 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\account\LoginForm.tsx                              | TypeScript JSX     |         78 |          0 |          4 |         82 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\account\RegisterForm.tsx                           | TypeScript JSX     |         81 |          0 |          4 |         85 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\dashboard\ActivityCard.tsx              | TypeScript JSX     |         65 |          0 |         13 |         78 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\dashboard\ActivityDashboard.tsx         | TypeScript JSX     |         16 |          0 |          4 |         20 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\dashboard\ActivityFilters.tsx           | TypeScript JSX     |         36 |          0 |          3 |         39 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\dashboard\ActivityList.tsx              | TypeScript JSX     |         19 |          0 |          8 |         27 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\details\ActivitityDetailHeader.tsx      | TypeScript JSX     |         81 |          2 |          4 |         87 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\details\ActivityDetailChat.tsx          | TypeScript JSX     |         49 |          0 |          3 |         52 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\details\ActivityDetailInfo.tsx          | TypeScript JSX     |         52 |          0 |          9 |         61 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\details\ActivityDetailSidebar.tsx       | TypeScript JSX     |         62 |          0 |          6 |         68 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\details\ActivityDetailsPage.tsx         | TypeScript JSX     |         25 |          0 |          7 |         32 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\form\ActivityForm.tsx                   | TypeScript JSX     |         79 |          0 |         15 |         94 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\form\categoryOptions.ts                 | TypeScript         |          8 |          0 |          0 |          8 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\activities\profiles\ProfileCard.tsx                | TypeScript JSX     |         40 |          0 |          4 |         44 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\counter\Counter.tsx                                | TypeScript JSX     |         29 |          0 |          9 |         38 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\errors\NotFound.tsx                                | TypeScript JSX     |         22 |          0 |          3 |         25 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\errors\ServerError.tsx                             | TypeScript JSX     |         22 |          0 |          3 |         25 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\errors\TestErrors.tsx                              | TypeScript JSX     |         50 |          0 |          7 |         57 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\features\home\HomePage.tsx                                  | TypeScript JSX     |         41 |          0 |          2 |         43 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\Hooks\useAccount.ts                                     | TypeScript         |         57 |          0 |         10 |         67 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\Hooks\useActivity.ts                                    | TypeScript         |        116 |          0 |         17 |        133 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\Hooks\useStore.ts                                       | TypeScript         |          5 |          0 |          1 |          6 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\api\agent.ts                                            | TypeScript         |         56 |          1 |         12 |         69 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\schemas\activitySchema.ts                               | TypeScript         |         17 |          0 |          2 |         19 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\schemas\loginSchema.ts                                  | TypeScript         |          6 |          0 |          2 |          8 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\schemas\registerSchema.ts                               | TypeScript         |          8 |          0 |          3 |         11 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\stores\couterStore.ts                                   | TypeScript         |         22 |          6 |         10 |         38 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\stores\store.ts                                         | TypeScript         |         12 |          0 |          3 |         15 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\stores\uiStore.ts                                       | TypeScript         |         13 |          0 |          4 |         17 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\types\index.d.ts                                        | TypeScript         |         57 |          0 |          6 |         63 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\lib\util\util.ts                                            | TypeScript         |          8 |          0 |          5 |         13 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\main.tsx                                                    | TypeScript JSX     |         30 |          0 |          3 |         33 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\src\vite-env.d.ts                                               | TypeScript         |          0 |          1 |          1 |          2 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\tsconfig.app.json                                               | JSON               |         23 |          2 |          3 |         28 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\tsconfig.json                                                   | JSON with Comments |          7 |          0 |          1 |          8 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\tsconfig.node.json                                              | JSON               |         21 |          2 |          3 |         26 |
+| c:\Users\mateu\Desktop\CommunityApp\Reactivity\client\vite.config.ts                                                  | TypeScript         |          9 |          1 |          1 |         11 |
+| c:\Users\mateu\Desktop\CommunityApp\out\linecounter.json                                                              | JSON               |      3,144 |          0 |          0 |      3,144 |
+| Total                                                                                                                 |                    |     15,315 |         52 |      1,091 |     16,458 |
++-----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

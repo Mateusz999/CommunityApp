@@ -25,7 +25,7 @@ export default function AvatarPopover({profile}: Props) {
     <>
         <Avatar 
             alt={profile.displayName + 'image'}
-            src={profile.imageUlr}
+            src={profile.imageUrl}
             component={Link}
             to={`/profiles/${profile.id}`}
             onMouseEnter={handlePopoverOpen}
