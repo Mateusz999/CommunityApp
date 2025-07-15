@@ -2,6 +2,7 @@ using System;
 using Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Persistence;
 
@@ -9,8 +10,10 @@ public class AppDbContext(DbContextOptions options) : IdentityDbContext<User>(op
 {
     public required DbSet<Activity> Activities { get; set; }
     public required DbSet<ActivityAttendee> ActivityAttendees { get; set; }
-
+    public required DbSet<Comment> Comments{ get; set; }
     public required DbSet<Photo> Photos { get; set; }
+
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -26,5 +29,22 @@ public class AppDbContext(DbContextOptions options) : IdentityDbContext<User>(op
             .HasOne(u => u.Activity)
             .WithMany(a => a.Attendees)
             .HasForeignKey(u => u.ActivityId);
+
+
+        var dateTimeConverter = new ValueConverter<DateTime, DateTime>(
+                V => V.ToUniversalTime(),
+                V => DateTime.SpecifyKind(V, DateTimeKind.Utc)
+                );
+
+        foreach( var entityType in builder.Model.GetEntityTypes())
+        {
+            foreach(var property in entityType.GetProperties())
+            {
+                if(property.ClrType == typeof(DateTime))
+                {
+                    property.SetValueConverter(dateTimeConverter);
+                }
+            }
+        }
     }
 }

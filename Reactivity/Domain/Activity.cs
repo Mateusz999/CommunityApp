@@ -20,4 +20,5 @@ public class Activity
     // propsy nawigacyjne
 
     public ICollection<ActivityAttendee> Attendees { get; set; } = [];
+    public ICollection<Comment> Comments{ get; set; } = [];
 }
