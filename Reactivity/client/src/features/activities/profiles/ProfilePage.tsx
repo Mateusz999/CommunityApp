@@ -17,7 +17,7 @@ if(!profile) return <Typography>Nie znaleziono profilu</Typography>
     
     <Grid2 container>
         <Grid2 size={12}>
-            <ProfileHeader profile={profile}/>
+            <ProfileHeader/>
             <ProfileContent />
         </Grid2>
 

@@ -10,12 +10,12 @@ public class DbInitializer
     {
         var users = new List<User>
             {
-                new() {DisplayName="Mateusz",UserName="Mateusz@spotly.com",Email ="Mateusz@spotly.com" },
-                new() {DisplayName="Karolina",UserName="Karolina@spotly.com",Email ="Karolina@spotly.com" },
-                new() {DisplayName="Jan",UserName="Jan@spotly.com",Email ="Jan@spotly.com" },
-                new() {DisplayName="Martin",UserName="Martin@spotly.com",Email ="Martin@spotly.com" },
-                new() {DisplayName="Patryk",UserName="Patryk@spotly.com",Email ="Patryk@spotly.com" },
-                new() {DisplayName="Daniel",UserName="Daniel@spotly.com",Email ="Daniel@spotly.com" }
+                new() { Id="mateusz-id",DisplayName="Mateusz",UserName="Mateusz@spotly.com",Email ="Mateusz@spotly.com" },
+                new() {Id="karolina-id",DisplayName="Karolina",UserName="Karolina@spotly.com",Email ="Karolina@spotly.com" },
+                new() {Id="jan-id",DisplayName="Jan",UserName="Jan@spotly.com",Email ="Jan@spotly.com" },
+                new() {Id="martin-id",DisplayName="Martin",UserName="Martin@spotly.com",Email ="Martin@spotly.com" },
+                new() {Id="patryk-id",DisplayName="Patryk",UserName="Patryk@spotly.com",Email ="Patryk@spotly.com" },
+                new() {Id="daniel-id",DisplayName="Daniel",UserName="Daniel@spotly.com",Email ="Daniel@spotly.com" }
             };
 
         if (!userManager.Users.Any())
