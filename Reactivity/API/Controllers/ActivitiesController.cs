@@ -2,6 +2,7 @@ using System;
 using Application.Activities.Commands;
 using Application.Activities.DTOs;
 using Application.Activities.Queries;
+using Application.Core;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -13,9 +14,9 @@ public class ActivitiesController() : BaseApiController
 {
     [AllowAnonymous]
     [HttpGet]
-    public async Task<ActionResult<List<ActivityDTO>>> GetActivities()
+    public async Task<ActionResult<PagedList<ActivityDTO,DateTime?>>> GetActivities([FromQuery]ActivityParams? activityParams )
     {
-        return await Mediator.Send(new GetActivityList.Query()); // Mediator jest w klasie BaseApiController 
+        return HandleResult( await Mediator.Send(new GetActivityList.Query {  Params = activityParams } )  ); // Mediator jest w klasie BaseApiController 
     }
 
     [HttpGet("{id}")]

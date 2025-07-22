@@ -1,11 +1,25 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query"
 import agent from "../api/agent"
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { EditProfileSchema } from "../schemas/editProfileSchema";
 
 export const useProfile = (id?: string, predicate?: string) => {
 
+    const [filter, setFilter] = useState<string | null>(null);
+
+    
     const queryClient = useQueryClient();
+
+    const {data: userActivities, isLoading: loadingUserActivities} = useQuery({
+        queryKey: ['user-activities',filter],
+        queryFn: async () => {
+            const response = await agent.get<Activity[]>(`profiles/${id}/activities`,{
+                params: {filter}
+            });
+            return response.data;
+        },
+        enabled: !!id && !!filter
+    })
 
     const {data: profile, isLoading: loadingProfile} = useQuery<Profile>({
         queryKey: ['profile',id],
@@ -139,28 +153,28 @@ const updateFollowing = useMutation({
     
 
 
- const updateProfile = useMutation({
- mutationFn: async (profile: EditProfileSchema) => {
- await agent.put(`/profiles`, profile);
- },
- onSuccess: (_, profile) => {
- queryClient.setQueryData(['profile', id], (data: Profile) => {
- if (!data) return data;
- return {
- ...data,
- displayName: profile.displayName,
- bio: profile.bio
- }
- });
- queryClient.setQueryData(['user'], (userData: User) => {
- if (!userData) return userData;
- return {
- ...userData,
- displayName: profile.displayName
- }
- });
- }
- })
+    const updateProfile = useMutation({
+    mutationFn: async (profile: EditProfileSchema) => {
+    await agent.put(`/profiles`, profile);
+    },
+    onSuccess: (_, profile) => {
+    queryClient.setQueryData(['profile', id], (data: Profile) => {
+    if (!data) return data;
+    return {
+    ...data,
+    displayName: profile.displayName,
+    bio: profile.bio
+    }
+    });
+    queryClient.setQueryData(['user'], (userData: User) => {
+    if (!userData) return userData;
+    return {
+    ...userData,
+    displayName: profile.displayName
+    }
+    });
+    }
+    })
 
     
 return{
@@ -175,6 +189,10 @@ return{
     updateProfile,
     updateFollowing,
     followings,
-    loadingFollowings
+    loadingFollowings,
+    userActivities,
+    loadingUserActivities,
+    setFilter,
+    filter
 }
 }

@@ -1,7 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace Domain;
 
+[Index(nameof(Date))]
 public class Activity
 {
     public string Id { get; set; } = Guid.NewGuid().ToString();

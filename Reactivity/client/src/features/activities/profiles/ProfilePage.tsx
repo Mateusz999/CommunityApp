@@ -20,7 +20,6 @@ if(!profile) return <Typography>Nie znaleziono profilu</Typography>
             <ProfileHeader/>
             <ProfileContent />
         </Grid2>
-
     </Grid2>
 
   )

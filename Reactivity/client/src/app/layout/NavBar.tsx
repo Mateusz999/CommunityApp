@@ -1,5 +1,5 @@
 import { Group } from '@mui/icons-material'
-import { AppBar, Box, Container, LinearProgress, MenuItem, Toolbar, Typography } from '@mui/material'
+import { AppBar, Box, CircularProgress, Container, MenuItem, Toolbar, Typography } from '@mui/material'
 import MenuItemList from '../shared/components/MenuItemList'
 import { useStore } from '../../lib/Hooks/useStore'
 import { Observer } from 'mobx-react-lite'
@@ -16,13 +16,28 @@ export default function NavBar() {
 
   return (
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ position: 'relative'}}>
+      <AppBar position="fixed" sx={{ }}>
        <Container maxWidth='xl'>
         <Toolbar sx={{display: 'flex', justifyContent: 'space-between'}}>
             <Box>
                 <MenuItemList  to='/' >
                     <Group fontSize='large'/>
-                    <Typography variant='h4' fontWeight='bold'>Spotly</Typography>
+                    <Typography sx={{position: 'relative'}} variant='h4' fontWeight='bold'>Spotly
+                    </Typography>
+                          <Observer>
+                              { () => uiStore.isLoading ? (
+                                <CircularProgress
+                                size={20}
+                                thickness={7}
+                                  sx={{
+                                    color: 'white',
+                                    position: 'absolute',
+                                    top: '30%',
+                                    left: '105%'
+                                  }}
+                                />
+                                ) : null }
+                          </Observer>
                 </MenuItemList>
             </Box>
             <Box sx={{ display: 'flex'}}>
@@ -51,26 +66,6 @@ export default function NavBar() {
             </Box>
         </Toolbar>
        </Container>
-
-      <Observer>
-        { () => uiStore.isLoading ? (
-<LinearProgress
-  sx={{
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: 4,
-    backgroundColor: '#eeeeee',
-    '& .MuiLinearProgress-bar': {
-      backgroundColor: '#00BCD4',
-    },
-  }}
-/>
-
-
-        ) : null }
-      </Observer>
       </AppBar>
     </Box>
   )
